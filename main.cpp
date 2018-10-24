@@ -13,7 +13,7 @@ int main()
 		cin >> a;
 		if (i == 4)
 		{
-			cout << "this is your last chance to proceed\n";
+			cout << "this is your last chance to proceed";
 		}
 		else
 		{
@@ -21,7 +21,8 @@ int main()
 		}
 		if (a == 1)
 		{
-			cout << " \nthanks for using our service";
+			cout << " \nthanks for using our service\n";
+			system("pause");
 		}
 		else
 		{
@@ -29,7 +30,8 @@ int main()
 		}
 		if (a == 2)
 		{
-			cout << "\n you have ₹250 as your main account balance";
+			cout << "\n you have ruppees 250 as your main account balance\n";
+			system("pause");
 		}
 		else
 		{
@@ -37,7 +39,8 @@ int main()
 		}
 		if (a == 3)
 		{
-			cout << "\nwe have many data plans but we suggest you to buy the data plan which has 1.4 gb data per day";
+			cout << "\nwe have many data plans but we suggest you to buy the data plan which has 1.4 gb data per day\n";
+			system("pause");
 		}
 		else
 		{
